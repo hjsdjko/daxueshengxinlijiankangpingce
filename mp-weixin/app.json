@@ -1,0 +1,110 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/register/register",
+    "pages/forget/forget",
+    "pages/changepassword/changepassword",
+    "pages/center/center",
+    "pages/user-info/userinfo",
+    "pages/exampapertopic/list",
+    "pages/exampapertopic/list2",
+    "pages/exampapertopic/add-or-update",
+    "pages/exampapertopic/detail",
+    "pages/forum/forum-index",
+    "pages/forum/forum-detail",
+    "pages/forum/forum-my",
+    "pages/forum/forum-add-or-update",
+    "pages/news/list",
+    "pages/news/list2",
+    "pages/news/add-or-update",
+    "pages/news/detail",
+    "pages/xinlijiankang/list",
+    "pages/xinlijiankang/list2",
+    "pages/xinlijiankang/add-or-update",
+    "pages/xinlijiankang/detail",
+    "pages/xinlijiankangCollection/list",
+    "pages/xinlijiankangCollection/list2",
+    "pages/xinlijiankangCollection/add-or-update",
+    "pages/xinlijiankangCollection/detail",
+    "pages/xinlijiankangLiuyan/list",
+    "pages/xinlijiankangLiuyan/list2",
+    "pages/xinlijiankangLiuyan/add-or-update",
+    "pages/xinlijiankangLiuyan/detail",
+    "pages/yonghu/list",
+    "pages/yonghu/list2",
+    "pages/yonghu/add-or-update",
+    "pages/yonghu/detail",
+    "pages/zhixunshi/list",
+    "pages/zhixunshi/list2",
+    "pages/zhixunshi/add-or-update",
+    "pages/zhixunshi/detail",
+    "pages/zhixunshiChat/list",
+    "pages/zhixunshiChat/list2",
+    "pages/zhixunshiChat/add-or-update",
+    "pages/zhixunshiChat/detail",
+    "pages/zhixunshiYuyue/list",
+    "pages/zhixunshiYuyue/list2",
+    "pages/zhixunshiYuyue/add-or-update",
+    "pages/zhixunshiYuyue/detail",
+    "pages/exampaper/list",
+    "pages/exampaper/exam",
+    "pages/examrecord/list",
+    "pages/examrecord/detail",
+    "pages/index/index"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "大学生心理健康测评管理系统",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#FFFFFF",
+    "selectedColor": "#fff",
+    "borderStyle": "black",
+    "backgroundColor": "#95d3d9",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/tabs/index.png",
+        "selectedIconPath": "static/tabs/index1.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/exampaper/list",
+        "iconPath": "static/tabs/type.png",
+        "selectedIconPath": "static/tabs/type1.png",
+        "text": "在线评测表"
+      },
+      {
+        "pagePath": "pages/xinlijiankang/list",
+        "iconPath": "static/tabs/type.png",
+        "selectedIconPath": "static/tabs/type1.png",
+        "text": "心理健康"
+      },
+      {
+        "pagePath": "pages/forum/forum-index",
+        "iconPath": "static/tabs/order.png",
+        "selectedIconPath": "static/tabs/order1.png",
+        "text": "论坛"
+      },
+      {
+        "pagePath": "pages/center/center",
+        "iconPath": "static/tabs/mine.png",
+        "selectedIconPath": "static/tabs/mine1.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "小程序将使用定位功能"
+    }
+  },
+  "requiredPrivateInfos": [
+    "getLocation",
+    "chooseLocation"
+  ],
+  "usingComponents": {}
+}
